@@ -1,2 +1,5 @@
-print("hola")
-print()
+empleados ={
+    "codigo":{
+
+    }
+}
