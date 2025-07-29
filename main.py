@@ -20,6 +20,9 @@ empleados = {
 
 def resultado_promedio(calificacion)
 
+    return 0
+
+
 
 print(" CONTROL DE EMPLEADOS:")
 codigo = input("Ingrese el código del Empleado: ")
