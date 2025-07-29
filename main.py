@@ -1,3 +1,7 @@
+usar clase para sacar el promedio
+el promedio se debe obtener por medio de puntualidad, equipo y productividad
+y en el estado determinar si el desempeño es satisfactorio (si el promedio es 7 o más) de lo contrario debe mostrar "mejorar"
+
 empleados = {
     "codigo": {
     "nombre": "nombre",
@@ -38,6 +42,7 @@ puntualidad = int (input("Puntualidad (0-10):  "))
 equipo = input("Trabajo en Equipo (0-10): ")
 productividad = input("Nivel de Productividad (0-10): ")
 observaciones = input("Agregue sus observaciones : ")
+print(f" El desempeño del empleado es: {estado}")
 
 print(f"\n Por favor ingrese la información de contacto de {nombre}:")
 telefono= input("\nNúmero telefónico: ")
@@ -48,6 +53,7 @@ correo = input("Correo electrónico :")
 #     mostrar.empleado()
 #else:
 #    exit()
+
 
 
 print("\nBúsqueda de empleados")
