@@ -1,6 +1,13 @@
-usar clase para sacar el promedio
-el promedio se debe obtener por medio de puntualidad, equipo y productividad
-y en el estado determinar si el desempeño es satisfactorio (si el promedio es 7 o más) de lo contrario debe mostrar "mejorar"
+class EvaluacionDesempeno:
+    def __init__(self, puntualidad, equipo, productividad):
+        self.puntualidad = puntualidad
+        self.equipo = equipo
+        self.productividad = productividad
+        self.promedio = self.calcular_promedio()
+        self.estado = self.obtener_estado()
+
+    def calcular_promedio(self):
+        return round((self.puntualidad + self.equipo + self.productividad) / 3, 2)
 
 empleados = {
     "codigo": {
